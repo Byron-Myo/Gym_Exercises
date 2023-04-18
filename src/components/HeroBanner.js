@@ -13,21 +13,26 @@ const HeroBanner = () => {
       position="relative"
       p="20px"
     >
-      <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-        No Pain No Gain!
+      <Typography color="#000" fontStyle="italic" fontSize="22px">
+        “Push harder than yesterday<br/> if you want a different tomorrow.”
       </Typography>
       <Typography
         fontWeight={700}
         sx={{ fontSize: { lg: "44px", xs: "40px" } }}
-        mb="23px" mt="30px"
+        mb="23px"
+        mt="30px"
       >
-        Sweat, Smile <br /> and <span style={{color:'#ff2625'}}>Repeat</span>
+        A little progress <br /> each day adds up to <br/><span style={{ color: "#ff2625" }}>BIG results.</span>
       </Typography>
       <Typography fontSize="22px" fontStyle="italic" lineHeight="35px" mb={4}>
         Check out the most effective exercises
       </Typography>
-      <Button variant="contained" color="error" href="#exercises"
-      sx={{backgroundColor:"#ff2625", padding: '10px'}}>
+      <Button
+        variant="contained"
+        color="error"
+        href="#exercises"
+        sx={{ backgroundColor: "#ff2625", padding: "10px" }}
+      >
         Explore Exercises
       </Button>
       <Typography
@@ -37,14 +42,12 @@ const HeroBanner = () => {
           opacity: 0.2,
           display: { lg: "block", xs: "none" },
         }}
-        fontSize="200px"
+        fontSize="100px"
       >
-        Exercises
+        Sweat, Smile and Repeat
       </Typography>
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
-    
     </Box>
-    
   );
 };
 

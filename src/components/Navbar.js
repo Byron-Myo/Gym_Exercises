@@ -21,7 +21,7 @@ const Navbar = () => (
         alt="Logo.png"
         style={{
           width: "auto",
-          height: "48px",
+          height: "60px",
           margin: "0 20px",
         }}
       />

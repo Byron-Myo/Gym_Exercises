@@ -48,8 +48,8 @@ body {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 629px;
+  height: 642px;
 }
 
 .hero-banner-img {
@@ -86,8 +86,10 @@ body {
 }
 
 .exercise-card:hover,
-.bodyPart-card:hover {
+.bodyPart-card:hover,
+.exercise-video:hover {
   transform: scale(1.1, 1.1);
+  border: none;
 }
 
 .search-btn:hover {
@@ -101,7 +103,11 @@ body {
   gap: 24px;
   width: 387px;
   height: 381px;
+  box-shadow: 5px 10px #fcf9f9;
   text-decoration: none;
+  border-top: 4px solid #ff2625;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {
